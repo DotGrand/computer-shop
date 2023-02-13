@@ -1,6 +1,6 @@
 package computer;
 
-public class QuantumComputer extends Computer{
+public class QuantumComputer extends Computer {
     private double weight;
 
     public QuantumComputer(String details, double price, double weight) {

@@ -7,7 +7,7 @@ public abstract class ComputerShop {
     private int quantityInStock;
 
     public ComputerShop(int quantityInStock) {
-        if (quantityInStock < 0){
+        if (quantityInStock < 0) {
             throw new NegativeQuantityComputerException("Quantity cannot be a negative number!");
         }
         this.quantityInStock = quantityInStock;

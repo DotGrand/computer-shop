@@ -1,6 +1,6 @@
 package computer;
 
-public class DigitalComputer extends Computer{
+public class DigitalComputer extends Computer {
     private String processor;
 
     public DigitalComputer(String details, double price, String processor) {

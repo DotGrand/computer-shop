@@ -5,7 +5,6 @@ public abstract class Computer {
     private String details;
     private double price;
 
-
     public Computer(String details, double price) {
         this.details = details;
         this.price = price;
