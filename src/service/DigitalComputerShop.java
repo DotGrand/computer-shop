@@ -6,7 +6,7 @@ import exception.NegativeQuantityComputerException;
 
 public class DigitalComputerShop extends ComputerShop {
 
-    private static final Computer DIGITAL_COMPUTER = new DigitalComputer("powerful",120.5,"Intel");
+    private static final Computer DIGITAL_COMPUTER = new DigitalComputer("powerful", 120.5, "Intel");
 
     public DigitalComputerShop(int quantityInStock) {
         super(quantityInStock);

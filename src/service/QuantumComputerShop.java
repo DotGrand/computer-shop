@@ -6,7 +6,7 @@ import exception.NegativeQuantityComputerException;
 
 public class QuantumComputerShop extends ComputerShop {
 
-    private static final Computer QUANTUM_COMPUTER = new QuantumComputer("professional quantum pro",300.0,35.5);
+    private static final Computer QUANTUM_COMPUTER = new QuantumComputer("professional quantum pro", 300.0, 35.5);
 
     public QuantumComputerShop(int quantityInStock) {
         super(quantityInStock);
